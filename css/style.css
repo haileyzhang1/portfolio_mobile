@@ -1,0 +1,147 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body{
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+}
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+
+/* style navigation bar */
+nav ul {
+	/* list-style-type: none; */
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: darkgrey;
+	border: 1px solid #e7e7e7;
+  }
+nav li{
+	float: left;
+}
+nav li a{
+	color: black !important;
+	display: block;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  	text-align: center;
+  	padding: 16px 20px;
+  	text-decoration: none;
+}
+.active{
+	background-color: rgb(0, 0, 0);
+	font-weight: bold;
+	text-align: center;
+}
+.active a{
+	color: white !important;
+}
+
+
+/*Style the images*/
+.cover {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	max-width: 95%;
+}
+.preview{
+	display:flex;
+	flex: 50%;
+}
+.preview img{
+	padding: 5px;
+	margin: 10px;
+}
+.preview img:hover{
+	filter: grayscale();
+	border: 3px solid white;
+}
+.prototype img{
+	height:500px;
+	width: auto;
+}
+img{
+    padding: 10px;
+	border: 1px lightsteelblue solid;
+	border-radius: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+}
+img:hover{
+	filter: grayscale();
+}
+#bg{
+	padding: 30px;
+	background-color: #54586F;
+	border-radius: 10px;
+}
+
+/* style the text */
+
+h1{
+	font-size: 3em; 
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+h2{
+	font-size: 2em; 
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+}
+
+p{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 28px;
+}
+li{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.prototype p{
+	text-align: center;
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+p, h1, h2 {
+    padding: 20px;
+
+}
+
+/*Add borders around the main components and some
+space too*/
+header, nav, main, h1, footer{
+	margin: 20px 0;
+}
+
+
+main ul{
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+main li{
+	padding-left: 30px;
+	padding-bottom: 5px;
+}
+footer{
+	color: grey;
+	padding: 32px 8px;
+    width:100%;
+    margin-bottom:0px;
+}
+
+
+/*Added this so the links stay the same color*/
+a:visited{color:white}
+
